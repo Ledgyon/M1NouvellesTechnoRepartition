@@ -1,0 +1,5 @@
+package fr.insa.BankWebServices.repository;
+
+public class ClientRepository {
+
+}
