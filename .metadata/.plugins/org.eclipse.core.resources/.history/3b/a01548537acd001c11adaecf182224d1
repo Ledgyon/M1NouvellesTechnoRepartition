@@ -1,0 +1,5 @@
+package fr.insa.BankWebServices.controller;
+
+public class ClientController {
+
+}
