@@ -8,6 +8,8 @@ import java.util.stream.Collectors;
 
 import org.springframework.hateoas.CollectionModel;
 import org.springframework.hateoas.EntityModel;
+import org.springframework.hateoas.IanaLinkRelations;
+import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.DeleteMapping;
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.PathVariable;
@@ -48,9 +50,14 @@ public class ClientController {
   // end::get-aggregate-root[]
 
   @PostMapping("/client")
-  public Client newClient(@RequestBody Client newClient) {
-    return repository.save(newClient);
-  }
+  ResponseEntity<?> newClient(@RequestBody Client newClient) {
+
+	  EntityModel<Client> entityModel = assembler.toModel(repository.save(newClient));
+
+	  return ResponseEntity //
+	      .created(entityModel.getRequiredLink(IanaLinkRelations.SELF).toUri()) //
+	      .body(entityModel);
+	}
 
   // Single item
   
@@ -64,9 +71,9 @@ public class ClientController {
   }
 
   @PutMapping("/client/{id}")
-  public Client replaceEmployee(@RequestBody Client newClient, @PathVariable Long id) {
+  public ResponseEntity<?> replaceClient(@RequestBody Client newClient, @PathVariable Long id) {
     
-    return repository.findById(id)
+	  Client updatedClient =  repository.findById(id)
       .map(client -> {
     	  client.setName(newClient.getName());
     	  client.setAge(newClient.getAge());
@@ -77,10 +84,17 @@ public class ClientController {
         newClient.setId(id);
         return repository.save(newClient);
       });
+	  
+	  EntityModel<Client> entityModel = assembler.toModel(updatedClient);
+
+	  return ResponseEntity //
+	      .created(entityModel.getRequiredLink(IanaLinkRelations.SELF).toUri()) //
+	      .body(entityModel);
   }
 
   @DeleteMapping("/client/{id}")
-  public void deleteClient(@PathVariable Long id) {
+  public ResponseEntity<?> deleteClient(@PathVariable Long id) {
     repository.deleteById(id);
+    return ResponseEntity.noContent().build();
   }
 }
