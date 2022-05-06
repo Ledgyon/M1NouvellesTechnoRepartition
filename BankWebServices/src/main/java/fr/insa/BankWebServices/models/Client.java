@@ -16,9 +16,7 @@ public class Client {
 	
 	public Client() {}
 	
-	public Client(Long id, String name, int age, double solde) {
-		super();
-		this.id = id;
+	public Client(String name, int age, double solde) {
 		this.name = name;
 		this.age = age;
 		this.solde = solde;
