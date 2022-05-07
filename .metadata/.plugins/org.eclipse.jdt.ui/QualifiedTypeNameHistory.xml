@@ -1,2 +1,10 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<qualifiedTypeNameHistroy/>
+<qualifiedTypeNameHistroy>
+    <fullyQualifiedTypeName name="fr.insa.BankWebServices.models.Client"/>
+    <fullyQualifiedTypeName name="java.io.ObjectInputFilter.Status"/>
+    <fullyQualifiedTypeName name="java.util.List"/>
+    <fullyQualifiedTypeName name="org.springframework.http.HttpHeaders"/>
+    <fullyQualifiedTypeName name="org.springframework.hateoas.mediatype.problem.Problem"/>
+    <fullyQualifiedTypeName name="fr.insa.BankWebServices.models.Order"/>
+    <fullyQualifiedTypeName name="fr.insa.BankWebServices.models.Status"/>
+</qualifiedTypeNameHistroy>
