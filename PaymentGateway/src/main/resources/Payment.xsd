@@ -1,44 +1,30 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<xs:schema xmlns="http://www.w3.org/2001/XMLSchema"  targetNamespace="http://www.example.org/Payment" xmlns:tns="http://www.example.org/Payment" elementFormDefault="qualified">
-	<xs:element name="getIdOperation">
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:tns="http://spring.io/payment" targetNamespace="http://spring.io/payment" elementFormDefault="qualified">
+	<xs:element name="getIdOperationRequest">
         <xs:complexType>
             <xs:sequence>
-                <xs:element name="idOperation" type="xs:string"/>
+                <xs:element name="idOperation" type="xs:int"/>
             </xs:sequence>
         </xs:complexType>
     </xs:element>
-
-    <xs:complexType name="commande">
+    <xs:element name="getIdOperationResponse">
+        <xs:complexType>
+            <xs:sequence>
+                <xs:element name="payment" type="tns:payment"/>
+            </xs:sequence>
+        </xs:complexType>
+    </xs:element>
+    <xs:complexType name="payment">
         <xs:sequence>
             <xs:element name="idOperation" type="xs:int"/>
             <xs:element name="prix" type="xs:int"/>
             <xs:element name="type" type="tns:type"/>
         </xs:sequence>
     </xs:complexType>
-
     <xs:simpleType name="type">
         <xs:restriction base="xs:string">
             <xs:enumeration value="Debit"/>
             <xs:enumeration value="Remboursement"/>
         </xs:restriction>
-    </xs:simpleType>
+    </xs:simpleType>  
 </xs:schema>
-
-<plugin>
-	<groupId>org.codehaus.mojo</groupId>
-	<artifactId>jaxb2-maven-plugin</artifactId>
-	<version>2.5.0</version>
-	<executions>
-		<execution>
-			<id>xjc</id>
-			<goals>
-				<goal>xjc</goal>
-			</goals>
-		</execution>
-	</executions>
-	<configuration>
-		<sources>
-			<source>${project.basedir}/src/main/resources/Payment.xsd</source>
-		</sources>
-	</configuration>
-</plugin>
