@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<soapenv:Envelope xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/"
+				  xmlns:gs="http://spring.io/payment">
+   <soapenv:Header/>
+   <soapenv:Body>
+      <gs:getIdOperationRequest>
+         <gs:idOperation>1</gs:idOperation>
+      </gs:getIdOperationRequest>
+   </soapenv:Body>
+</soapenv:Envelope>
