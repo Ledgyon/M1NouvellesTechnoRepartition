@@ -2,6 +2,7 @@
 <section name="Workbench">
 	<section name="MavenProjectImportWizardPage">
 		<list key="rootDirectory">
+			<item value="C:\Users\simon\eclipse-workspace\M1NouvellesTechnoRepartition\PaymentGateway"/>
 			<item value="C:\Users\simon\eclipse-workspace\M1NouvellesTechnoRepartition\BankWebServices"/>
 		</list>
 		<list key="projectNameTemplate">

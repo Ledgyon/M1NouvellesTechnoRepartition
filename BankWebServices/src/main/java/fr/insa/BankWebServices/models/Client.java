@@ -6,10 +6,10 @@ import javax.persistence.Entity;
 import javax.persistence.GeneratedValue;
 import javax.persistence.Id;
 
-@Entity
+@Entity		// Annotation PA pour préparer cet objet au stockage dans une database JPA
 public class Client {
 
-	private @Id @GeneratedValue Long id;
+	private @Id @GeneratedValue Long id; // primary key et instancier automatiquement
 	private String name;	
 	private int age;	
 	private double solde;

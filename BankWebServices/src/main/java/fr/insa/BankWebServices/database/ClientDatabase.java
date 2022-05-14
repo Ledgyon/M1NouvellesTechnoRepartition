@@ -10,9 +10,9 @@ import fr.insa.BankWebServices.models.Client;
 import fr.insa.BankWebServices.repository.ClientRepository;
 
 @Configuration
-class LoadDatabase {
+class ClientDatabase {
 
-  private static final Logger log = LoggerFactory.getLogger(LoadDatabase.class);
+  private static final Logger log = LoggerFactory.getLogger(ClientDatabase.class);
 
   @Bean
   CommandLineRunner initDatabase(ClientRepository employeeRepository) {
