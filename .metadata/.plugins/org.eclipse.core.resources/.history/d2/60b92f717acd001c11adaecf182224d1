@@ -1,8 +1,0 @@
-package fr.insa.BankWebServices.exception;
-
-class ClientNotFoundException extends RuntimeException {
-
-	  ClientNotFoundException(Long id) {
-	    super("Could not find client " + id);
-	  }
-	}

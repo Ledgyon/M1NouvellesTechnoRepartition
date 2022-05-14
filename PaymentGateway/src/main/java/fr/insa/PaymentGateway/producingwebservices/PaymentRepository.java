@@ -25,16 +25,16 @@ public class PaymentRepository {
 		payments.put(op1.getIdOperation(), op1);
 
 		Payment op2 = new Payment();
-		op1.setIdOperation(2);
-		op1.setPrix(500);
-		op1.setType(Type.REMBOURSEMENT);
+		op2.setIdOperation(2);
+		op2.setPrix(500);
+		op2.setType(Type.REMBOURSEMENT);
 
 		payments.put(op2.getIdOperation(), op2);
 
 		Payment op3 = new Payment();
-		op1.setIdOperation(3);
-		op1.setPrix(400);
-		op1.setType(Type.DEBIT);
+		op3.setIdOperation(3);
+		op3.setPrix(400);
+		op3.setType(Type.DEBIT);
 
 		payments.put(op3.getIdOperation(), op3);
 	}

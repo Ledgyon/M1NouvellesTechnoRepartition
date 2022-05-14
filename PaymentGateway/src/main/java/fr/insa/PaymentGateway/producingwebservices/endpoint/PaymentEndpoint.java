@@ -21,9 +21,9 @@ public class PaymentEndpoint {
 		this.paymentRepository = paymentRepository;
 	}
 
-	@PayloadRoot(namespace = NAMESPACE_URI, localPart = "getPaymentRequest")
+	@PayloadRoot(namespace = NAMESPACE_URI, localPart = "getIdOperationRequest")
 	@ResponsePayload
-	public GetIdOperationResponse getCountry(@RequestPayload GetIdOperationRequest request) {
+	public GetIdOperationResponse getIdOperation(@RequestPayload GetIdOperationRequest request) {
 		GetIdOperationResponse response = new GetIdOperationResponse();
 		response.setPayment(paymentRepository.findPayment(request.getIdOperation()));
 
