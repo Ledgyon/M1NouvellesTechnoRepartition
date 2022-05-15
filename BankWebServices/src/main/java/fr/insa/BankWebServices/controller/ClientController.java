@@ -38,7 +38,7 @@ public class ClientController {
 
   // Aggregate root
   // tag::get-aggregate-root[]
-  @GetMapping("/employees")
+  @GetMapping("/client")
   public CollectionModel<EntityModel<Client>> all() {
 
 	  List<EntityModel<Client>> clients = repository.findAll().stream() //
