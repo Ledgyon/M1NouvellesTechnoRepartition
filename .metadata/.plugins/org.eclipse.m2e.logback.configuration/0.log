@@ -4538,3 +4538,211 @@ java.net.URISyntaxException: Illegal character in path at index 16: file:/C:/Pro
 2022-05-15 15:26:40,517 [Worker-107: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
 2022-05-15 15:26:40,517 [Worker-107: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
 2022-05-15 15:26:40,517 [Worker-107: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\simon\eclipse-workspace\M1NouvellesTechnoRepartition\ConsumingWebServices\src\test\resources
+2022-05-15 15:29:28,552 [Worker-107: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - The URI [http://localhost:8080/ws/Payment.wsdl] seems to represent an absolute HTTP or HTTPS URL. Getting the last modification timestamp is only possible if the URL is accessible and if the server returns the [Last-Modified] header correctly. This method is not reliable and is likely to fail. In this case the last modification timestamp will be assumed to be unknown.
+2022-05-15 15:29:28,575 [Worker-107: Building] ERROR o.e.m.c.i.embedder.EclipseLogger - Could not retrieve the last modification timestamp for the URI [http://localhost:8080/ws/Payment.wsdl] from the HTTP URL connection. The [Last-Modified] header was probably not set correctly.
+2022-05-15 15:29:28,576 [Worker-107: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Last modification of the URI [http://localhost:8080/ws/Payment.wsdl] is not known.
+2022-05-15 15:29:28,578 [Worker-107: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Sources are not up-to-date, XJC will be executed.
+2022-05-15 15:29:28,625 [Worker-107: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Episode file [C:\Users\simon\eclipse-workspace\M1NouvellesTechnoRepartition\ConsumingWebServices\target\generated-sources\xjc\META-INF\sun-jaxb.episode] was augmented with if-exists="true" attributes.
+2022-05-15 15:29:28,627 [Worker-107: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-05-15 15:29:28,627 [Worker-107: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2022-05-15 15:29:28,627 [Worker-107: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2022-05-15 15:29:28,635 [Worker-107: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2022-05-15 15:29:28,636 [Worker-107: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2022-05-15 15:29:28,640 [Worker-107: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-05-15 15:29:28,640 [Worker-107: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2022-05-15 15:29:28,640 [Worker-107: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\simon\eclipse-workspace\M1NouvellesTechnoRepartition\ConsumingWebServices\src\test\resources
+2022-05-15 15:30:00,889 [Worker-110: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - The URI [http://localhost:8080/ws/Payment.wsdl] seems to represent an absolute HTTP or HTTPS URL. Getting the last modification timestamp is only possible if the URL is accessible and if the server returns the [Last-Modified] header correctly. This method is not reliable and is likely to fail. In this case the last modification timestamp will be assumed to be unknown.
+2022-05-15 15:30:00,899 [Worker-110: Building] ERROR o.e.m.c.i.embedder.EclipseLogger - Could not retrieve the last modification timestamp for the URI [http://localhost:8080/ws/Payment.wsdl] from the HTTP URL connection. The [Last-Modified] header was probably not set correctly.
+2022-05-15 15:30:00,900 [Worker-110: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Last modification of the URI [http://localhost:8080/ws/Payment.wsdl] is not known.
+2022-05-15 15:30:00,901 [Worker-110: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Sources are not up-to-date, XJC will be executed.
+2022-05-15 15:30:00,935 [Worker-110: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Episode file [C:\Users\simon\eclipse-workspace\M1NouvellesTechnoRepartition\ConsumingWebServices\target\generated-sources\xjc\META-INF\sun-jaxb.episode] was augmented with if-exists="true" attributes.
+2022-05-15 15:30:00,936 [Worker-110: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-05-15 15:30:00,937 [Worker-110: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2022-05-15 15:30:00,937 [Worker-110: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2022-05-15 15:30:00,944 [Worker-110: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2022-05-15 15:30:00,944 [Worker-110: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2022-05-15 15:30:00,949 [Worker-110: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-05-15 15:30:00,949 [Worker-110: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2022-05-15 15:30:00,949 [Worker-110: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\simon\eclipse-workspace\M1NouvellesTechnoRepartition\ConsumingWebServices\src\test\resources
+2022-05-15 15:34:28,888 [Worker-111: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - The URI [http://localhost:8080/ws/Payment.wsdl] seems to represent an absolute HTTP or HTTPS URL. Getting the last modification timestamp is only possible if the URL is accessible and if the server returns the [Last-Modified] header correctly. This method is not reliable and is likely to fail. In this case the last modification timestamp will be assumed to be unknown.
+2022-05-15 15:34:28,901 [Worker-111: Building] ERROR o.e.m.c.i.embedder.EclipseLogger - Could not retrieve the last modification timestamp for the URI [http://localhost:8080/ws/Payment.wsdl] from the HTTP URL connection. The [Last-Modified] header was probably not set correctly.
+2022-05-15 15:34:28,902 [Worker-111: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Last modification of the URI [http://localhost:8080/ws/Payment.wsdl] is not known.
+2022-05-15 15:34:28,904 [Worker-111: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Sources are not up-to-date, XJC will be executed.
+2022-05-15 15:34:28,951 [Worker-111: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Episode file [C:\Users\simon\eclipse-workspace\M1NouvellesTechnoRepartition\ConsumingWebServices\target\generated-sources\xjc\META-INF\sun-jaxb.episode] was augmented with if-exists="true" attributes.
+2022-05-15 15:34:28,953 [Worker-111: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-05-15 15:34:28,953 [Worker-111: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2022-05-15 15:34:28,954 [Worker-111: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2022-05-15 15:34:28,963 [Worker-111: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2022-05-15 15:34:28,964 [Worker-111: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2022-05-15 15:34:28,967 [Worker-111: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-05-15 15:34:28,967 [Worker-111: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2022-05-15 15:34:28,967 [Worker-111: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\simon\eclipse-workspace\M1NouvellesTechnoRepartition\ConsumingWebServices\src\test\resources
+2022-05-15 15:34:52,016 [Worker-113: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - The URI [http://localhost:8080/ws/Payment.wsdl] seems to represent an absolute HTTP or HTTPS URL. Getting the last modification timestamp is only possible if the URL is accessible and if the server returns the [Last-Modified] header correctly. This method is not reliable and is likely to fail. In this case the last modification timestamp will be assumed to be unknown.
+2022-05-15 15:34:52,027 [Worker-113: Building] ERROR o.e.m.c.i.embedder.EclipseLogger - Could not retrieve the last modification timestamp for the URI [http://localhost:8080/ws/Payment.wsdl] from the HTTP URL connection. The [Last-Modified] header was probably not set correctly.
+2022-05-15 15:34:52,028 [Worker-113: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Last modification of the URI [http://localhost:8080/ws/Payment.wsdl] is not known.
+2022-05-15 15:34:52,029 [Worker-113: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Sources are not up-to-date, XJC will be executed.
+2022-05-15 15:34:52,066 [Worker-113: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Episode file [C:\Users\simon\eclipse-workspace\M1NouvellesTechnoRepartition\ConsumingWebServices\target\generated-sources\xjc\META-INF\sun-jaxb.episode] was augmented with if-exists="true" attributes.
+2022-05-15 15:34:52,067 [Worker-113: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-05-15 15:34:52,067 [Worker-113: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2022-05-15 15:34:52,068 [Worker-113: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2022-05-15 15:34:52,080 [Worker-113: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2022-05-15 15:34:52,081 [Worker-113: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2022-05-15 15:34:52,085 [Worker-113: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-05-15 15:34:52,085 [Worker-113: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2022-05-15 15:34:52,085 [Worker-113: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\simon\eclipse-workspace\M1NouvellesTechnoRepartition\ConsumingWebServices\src\test\resources
+2022-05-15 15:35:04,918 [Worker-113: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - The URI [http://localhost:8080/ws/Payment.wsdl] seems to represent an absolute HTTP or HTTPS URL. Getting the last modification timestamp is only possible if the URL is accessible and if the server returns the [Last-Modified] header correctly. This method is not reliable and is likely to fail. In this case the last modification timestamp will be assumed to be unknown.
+2022-05-15 15:35:04,924 [Worker-113: Building] ERROR o.e.m.c.i.embedder.EclipseLogger - Could not retrieve the last modification timestamp for the URI [http://localhost:8080/ws/Payment.wsdl] from the HTTP URL connection. The [Last-Modified] header was probably not set correctly.
+2022-05-15 15:35:04,925 [Worker-113: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Last modification of the URI [http://localhost:8080/ws/Payment.wsdl] is not known.
+2022-05-15 15:35:04,928 [Worker-113: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Sources are not up-to-date, XJC will be executed.
+2022-05-15 15:35:05,000 [Worker-113: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Episode file [C:\Users\simon\eclipse-workspace\M1NouvellesTechnoRepartition\ConsumingWebServices\target\generated-sources\xjc\META-INF\sun-jaxb.episode] was augmented with if-exists="true" attributes.
+2022-05-15 15:35:05,002 [Worker-113: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-05-15 15:35:05,002 [Worker-113: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2022-05-15 15:35:05,003 [Worker-113: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2022-05-15 15:35:05,017 [Worker-113: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2022-05-15 15:35:05,018 [Worker-113: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2022-05-15 15:35:05,024 [Worker-113: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-05-15 15:35:05,024 [Worker-113: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2022-05-15 15:35:05,024 [Worker-113: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\simon\eclipse-workspace\M1NouvellesTechnoRepartition\ConsumingWebServices\src\test\resources
+2022-05-15 15:35:07,862 [Worker-109: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - The URI [http://localhost:8080/ws/Payment.wsdl] seems to represent an absolute HTTP or HTTPS URL. Getting the last modification timestamp is only possible if the URL is accessible and if the server returns the [Last-Modified] header correctly. This method is not reliable and is likely to fail. In this case the last modification timestamp will be assumed to be unknown.
+2022-05-15 15:35:07,874 [Worker-109: Building] ERROR o.e.m.c.i.embedder.EclipseLogger - Could not retrieve the last modification timestamp for the URI [http://localhost:8080/ws/Payment.wsdl] from the HTTP URL connection. The [Last-Modified] header was probably not set correctly.
+2022-05-15 15:35:07,874 [Worker-109: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Last modification of the URI [http://localhost:8080/ws/Payment.wsdl] is not known.
+2022-05-15 15:35:07,876 [Worker-109: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Sources are not up-to-date, XJC will be executed.
+2022-05-15 15:35:07,908 [Worker-109: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Episode file [C:\Users\simon\eclipse-workspace\M1NouvellesTechnoRepartition\ConsumingWebServices\target\generated-sources\xjc\META-INF\sun-jaxb.episode] was augmented with if-exists="true" attributes.
+2022-05-15 15:35:07,909 [Worker-109: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-05-15 15:35:07,909 [Worker-109: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2022-05-15 15:35:07,910 [Worker-109: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2022-05-15 15:35:07,921 [Worker-109: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2022-05-15 15:35:07,922 [Worker-109: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2022-05-15 15:35:07,928 [Worker-109: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-05-15 15:35:07,928 [Worker-109: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2022-05-15 15:35:07,928 [Worker-109: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\simon\eclipse-workspace\M1NouvellesTechnoRepartition\ConsumingWebServices\src\test\resources
+2022-05-15 15:36:01,112 [Worker-109: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - The URI [http://localhost:8080/ws/Payment.wsdl] seems to represent an absolute HTTP or HTTPS URL. Getting the last modification timestamp is only possible if the URL is accessible and if the server returns the [Last-Modified] header correctly. This method is not reliable and is likely to fail. In this case the last modification timestamp will be assumed to be unknown.
+2022-05-15 15:36:01,118 [Worker-109: Building] ERROR o.e.m.c.i.embedder.EclipseLogger - Could not retrieve the last modification timestamp for the URI [http://localhost:8080/ws/Payment.wsdl] from the HTTP URL connection. The [Last-Modified] header was probably not set correctly.
+2022-05-15 15:36:01,119 [Worker-109: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Last modification of the URI [http://localhost:8080/ws/Payment.wsdl] is not known.
+2022-05-15 15:36:01,120 [Worker-109: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Sources are not up-to-date, XJC will be executed.
+2022-05-15 15:36:01,270 [Worker-109: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Episode file [C:\Users\simon\eclipse-workspace\M1NouvellesTechnoRepartition\ConsumingWebServices\target\generated-sources\xjc\META-INF\sun-jaxb.episode] was augmented with if-exists="true" attributes.
+2022-05-15 15:36:01,274 [Worker-109: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-05-15 15:36:01,274 [Worker-109: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2022-05-15 15:36:01,275 [Worker-109: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2022-05-15 15:36:01,286 [Worker-109: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2022-05-15 15:36:01,287 [Worker-109: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2022-05-15 15:36:01,293 [Worker-109: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-05-15 15:36:01,293 [Worker-109: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2022-05-15 15:36:01,293 [Worker-109: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\simon\eclipse-workspace\M1NouvellesTechnoRepartition\ConsumingWebServices\src\test\resources
+2022-05-15 15:36:02,369 [Worker-115: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - The URI [http://localhost:8080/ws/Payment.wsdl] seems to represent an absolute HTTP or HTTPS URL. Getting the last modification timestamp is only possible if the URL is accessible and if the server returns the [Last-Modified] header correctly. This method is not reliable and is likely to fail. In this case the last modification timestamp will be assumed to be unknown.
+2022-05-15 15:36:02,376 [Worker-115: Building] ERROR o.e.m.c.i.embedder.EclipseLogger - Could not retrieve the last modification timestamp for the URI [http://localhost:8080/ws/Payment.wsdl] from the HTTP URL connection. The [Last-Modified] header was probably not set correctly.
+2022-05-15 15:36:02,376 [Worker-115: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Last modification of the URI [http://localhost:8080/ws/Payment.wsdl] is not known.
+2022-05-15 15:36:02,378 [Worker-115: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Sources are not up-to-date, XJC will be executed.
+2022-05-15 15:36:02,411 [Worker-115: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Episode file [C:\Users\simon\eclipse-workspace\M1NouvellesTechnoRepartition\ConsumingWebServices\target\generated-sources\xjc\META-INF\sun-jaxb.episode] was augmented with if-exists="true" attributes.
+2022-05-15 15:36:02,412 [Worker-115: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-05-15 15:36:02,413 [Worker-115: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2022-05-15 15:36:02,413 [Worker-115: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2022-05-15 15:36:02,420 [Worker-115: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2022-05-15 15:36:02,420 [Worker-115: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2022-05-15 15:36:02,425 [Worker-115: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-05-15 15:36:02,425 [Worker-115: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2022-05-15 15:36:02,425 [Worker-115: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\simon\eclipse-workspace\M1NouvellesTechnoRepartition\ConsumingWebServices\src\test\resources
+2022-05-15 15:39:06,295 [Worker-111: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - The URI [http://localhost:8080/ws/Payment.wsdl] seems to represent an absolute HTTP or HTTPS URL. Getting the last modification timestamp is only possible if the URL is accessible and if the server returns the [Last-Modified] header correctly. This method is not reliable and is likely to fail. In this case the last modification timestamp will be assumed to be unknown.
+2022-05-15 15:39:06,304 [Worker-111: Building] ERROR o.e.m.c.i.embedder.EclipseLogger - Could not retrieve the last modification timestamp for the URI [http://localhost:8080/ws/Payment.wsdl] from the HTTP URL connection. The [Last-Modified] header was probably not set correctly.
+2022-05-15 15:39:06,305 [Worker-111: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Last modification of the URI [http://localhost:8080/ws/Payment.wsdl] is not known.
+2022-05-15 15:39:06,306 [Worker-111: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Sources are not up-to-date, XJC will be executed.
+2022-05-15 15:39:06,339 [Worker-111: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Episode file [C:\Users\simon\eclipse-workspace\M1NouvellesTechnoRepartition\ConsumingWebServices\target\generated-sources\xjc\META-INF\sun-jaxb.episode] was augmented with if-exists="true" attributes.
+2022-05-15 15:39:06,340 [Worker-111: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-05-15 15:39:06,340 [Worker-111: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2022-05-15 15:39:06,340 [Worker-111: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2022-05-15 15:39:06,346 [Worker-111: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2022-05-15 15:39:06,347 [Worker-111: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2022-05-15 15:39:06,350 [Worker-111: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-05-15 15:39:06,350 [Worker-111: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2022-05-15 15:39:06,350 [Worker-111: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\simon\eclipse-workspace\M1NouvellesTechnoRepartition\ConsumingWebServices\src\test\resources
+2022-05-15 15:39:29,160 [Worker-111: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - The URI [http://localhost:8080/ws/Payment.wsdl] seems to represent an absolute HTTP or HTTPS URL. Getting the last modification timestamp is only possible if the URL is accessible and if the server returns the [Last-Modified] header correctly. This method is not reliable and is likely to fail. In this case the last modification timestamp will be assumed to be unknown.
+2022-05-15 15:39:29,166 [Worker-111: Building] ERROR o.e.m.c.i.embedder.EclipseLogger - Could not retrieve the last modification timestamp for the URI [http://localhost:8080/ws/Payment.wsdl] from the HTTP URL connection. The [Last-Modified] header was probably not set correctly.
+2022-05-15 15:39:29,166 [Worker-111: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Last modification of the URI [http://localhost:8080/ws/Payment.wsdl] is not known.
+2022-05-15 15:39:29,167 [Worker-111: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Sources are not up-to-date, XJC will be executed.
+2022-05-15 15:39:29,202 [Worker-111: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Episode file [C:\Users\simon\eclipse-workspace\M1NouvellesTechnoRepartition\ConsumingWebServices\target\generated-sources\xjc\META-INF\sun-jaxb.episode] was augmented with if-exists="true" attributes.
+2022-05-15 15:39:29,209 [Worker-111: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-05-15 15:39:29,209 [Worker-111: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2022-05-15 15:39:29,209 [Worker-111: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2022-05-15 15:39:29,215 [Worker-111: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2022-05-15 15:39:29,216 [Worker-111: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2022-05-15 15:39:29,219 [Worker-111: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-05-15 15:39:29,219 [Worker-111: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2022-05-15 15:39:29,219 [Worker-111: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\simon\eclipse-workspace\M1NouvellesTechnoRepartition\ConsumingWebServices\src\test\resources
+2022-05-15 15:41:58,529 [Worker-111: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - The URI [http://localhost:8080/ws/Payment.wsdl] seems to represent an absolute HTTP or HTTPS URL. Getting the last modification timestamp is only possible if the URL is accessible and if the server returns the [Last-Modified] header correctly. This method is not reliable and is likely to fail. In this case the last modification timestamp will be assumed to be unknown.
+2022-05-15 15:41:58,543 [Worker-111: Building] ERROR o.e.m.c.i.embedder.EclipseLogger - Could not retrieve the last modification timestamp for the URI [http://localhost:8080/ws/Payment.wsdl] from the HTTP URL connection. The [Last-Modified] header was probably not set correctly.
+2022-05-15 15:41:58,544 [Worker-111: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Last modification of the URI [http://localhost:8080/ws/Payment.wsdl] is not known.
+2022-05-15 15:41:58,545 [Worker-111: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Sources are not up-to-date, XJC will be executed.
+2022-05-15 15:41:58,583 [Worker-111: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Episode file [C:\Users\simon\eclipse-workspace\M1NouvellesTechnoRepartition\ConsumingWebServices\target\generated-sources\xjc\META-INF\sun-jaxb.episode] was augmented with if-exists="true" attributes.
+2022-05-15 15:41:58,584 [Worker-111: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-05-15 15:41:58,584 [Worker-111: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2022-05-15 15:41:58,584 [Worker-111: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2022-05-15 15:41:58,590 [Worker-111: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2022-05-15 15:41:58,591 [Worker-111: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2022-05-15 15:41:58,594 [Worker-111: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-05-15 15:41:58,594 [Worker-111: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2022-05-15 15:41:58,594 [Worker-111: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\simon\eclipse-workspace\M1NouvellesTechnoRepartition\ConsumingWebServices\src\test\resources
+2022-05-15 15:43:23,733 [Worker-109: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - The URI [http://localhost:8080/ws/Payment.wsdl] seems to represent an absolute HTTP or HTTPS URL. Getting the last modification timestamp is only possible if the URL is accessible and if the server returns the [Last-Modified] header correctly. This method is not reliable and is likely to fail. In this case the last modification timestamp will be assumed to be unknown.
+2022-05-15 15:43:23,742 [Worker-109: Building] ERROR o.e.m.c.i.embedder.EclipseLogger - Could not retrieve the last modification timestamp for the URI [http://localhost:8080/ws/Payment.wsdl] from the HTTP URL connection. The [Last-Modified] header was probably not set correctly.
+2022-05-15 15:43:23,743 [Worker-109: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Last modification of the URI [http://localhost:8080/ws/Payment.wsdl] is not known.
+2022-05-15 15:43:23,744 [Worker-109: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Sources are not up-to-date, XJC will be executed.
+2022-05-15 15:43:23,781 [Worker-109: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Episode file [C:\Users\simon\eclipse-workspace\M1NouvellesTechnoRepartition\ConsumingWebServices\target\generated-sources\xjc\META-INF\sun-jaxb.episode] was augmented with if-exists="true" attributes.
+2022-05-15 15:43:23,783 [Worker-109: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-05-15 15:43:23,783 [Worker-109: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2022-05-15 15:43:23,784 [Worker-109: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2022-05-15 15:43:23,793 [Worker-109: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2022-05-15 15:43:23,794 [Worker-109: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2022-05-15 15:43:23,799 [Worker-109: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-05-15 15:43:23,799 [Worker-109: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2022-05-15 15:43:23,800 [Worker-109: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\simon\eclipse-workspace\M1NouvellesTechnoRepartition\ConsumingWebServices\src\test\resources
+2022-05-15 15:43:39,897 [Worker-109: Launching ConsumingWebServicesApplication] WARN  o.e.m.c.i.embedder.EclipseLogger - The URI [http://localhost:8080/ws/Payment.wsdl] seems to represent an absolute HTTP or HTTPS URL. Getting the last modification timestamp is only possible if the URL is accessible and if the server returns the [Last-Modified] header correctly. This method is not reliable and is likely to fail. In this case the last modification timestamp will be assumed to be unknown.
+2022-05-15 15:43:39,905 [Worker-109: Launching ConsumingWebServicesApplication] ERROR o.e.m.c.i.embedder.EclipseLogger - Could not retrieve the last modification timestamp for the URI [http://localhost:8080/ws/Payment.wsdl] from the HTTP URL connection. The [Last-Modified] header was probably not set correctly.
+2022-05-15 15:43:39,906 [Worker-109: Launching ConsumingWebServicesApplication] WARN  o.e.m.c.i.embedder.EclipseLogger - Last modification of the URI [http://localhost:8080/ws/Payment.wsdl] is not known.
+2022-05-15 15:43:39,908 [Worker-109: Launching ConsumingWebServicesApplication] INFO  o.e.m.c.i.embedder.EclipseLogger - Sources are not up-to-date, XJC will be executed.
+2022-05-15 15:43:39,956 [Worker-109: Launching ConsumingWebServicesApplication] INFO  o.e.m.c.i.embedder.EclipseLogger - Episode file [C:\Users\simon\eclipse-workspace\M1NouvellesTechnoRepartition\ConsumingWebServices\target\generated-sources\xjc\META-INF\sun-jaxb.episode] was augmented with if-exists="true" attributes.
+2022-05-15 15:43:39,957 [Worker-109: Launching ConsumingWebServicesApplication] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-05-15 15:43:39,957 [Worker-109: Launching ConsumingWebServicesApplication] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2022-05-15 15:43:39,958 [Worker-109: Launching ConsumingWebServicesApplication] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2022-05-15 15:43:39,978 [Worker-109: Launching ConsumingWebServicesApplication] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2022-05-15 15:43:39,978 [Worker-109: Launching ConsumingWebServicesApplication] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2022-05-15 15:43:39,983 [Worker-109: Launching ConsumingWebServicesApplication] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-05-15 15:43:39,983 [Worker-109: Launching ConsumingWebServicesApplication] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2022-05-15 15:43:39,983 [Worker-109: Launching ConsumingWebServicesApplication] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\simon\eclipse-workspace\M1NouvellesTechnoRepartition\ConsumingWebServices\src\test\resources
+2022-05-15 15:43:40,171 [Worker-116: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - The URI [http://localhost:8080/ws/Payment.wsdl] seems to represent an absolute HTTP or HTTPS URL. Getting the last modification timestamp is only possible if the URL is accessible and if the server returns the [Last-Modified] header correctly. This method is not reliable and is likely to fail. In this case the last modification timestamp will be assumed to be unknown.
+2022-05-15 15:43:40,180 [Worker-116: Building] ERROR o.e.m.c.i.embedder.EclipseLogger - Could not retrieve the last modification timestamp for the URI [http://localhost:8080/ws/Payment.wsdl] from the HTTP URL connection. The [Last-Modified] header was probably not set correctly.
+2022-05-15 15:43:40,181 [Worker-116: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Last modification of the URI [http://localhost:8080/ws/Payment.wsdl] is not known.
+2022-05-15 15:43:40,183 [Worker-116: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Sources are not up-to-date, XJC will be executed.
+2022-05-15 15:43:40,230 [Worker-116: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Episode file [C:\Users\simon\eclipse-workspace\M1NouvellesTechnoRepartition\ConsumingWebServices\target\generated-sources\xjc\META-INF\sun-jaxb.episode] was augmented with if-exists="true" attributes.
+2022-05-15 15:43:40,232 [Worker-116: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-05-15 15:43:40,232 [Worker-116: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2022-05-15 15:43:40,232 [Worker-116: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2022-05-15 15:43:40,241 [Worker-116: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2022-05-15 15:43:40,243 [Worker-116: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2022-05-15 15:43:40,248 [Worker-116: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-05-15 15:43:40,248 [Worker-116: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2022-05-15 15:43:40,248 [Worker-116: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\simon\eclipse-workspace\M1NouvellesTechnoRepartition\ConsumingWebServices\src\test\resources
+2022-05-15 15:44:29,527 [Worker-116: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - The URI [http://localhost:8080/ws/Payment.wsdl] seems to represent an absolute HTTP or HTTPS URL. Getting the last modification timestamp is only possible if the URL is accessible and if the server returns the [Last-Modified] header correctly. This method is not reliable and is likely to fail. In this case the last modification timestamp will be assumed to be unknown.
+2022-05-15 15:44:29,537 [Worker-116: Building] ERROR o.e.m.c.i.embedder.EclipseLogger - Could not retrieve the last modification timestamp for the URI [http://localhost:8080/ws/Payment.wsdl] from the HTTP URL connection. The [Last-Modified] header was probably not set correctly.
+2022-05-15 15:44:29,538 [Worker-116: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Last modification of the URI [http://localhost:8080/ws/Payment.wsdl] is not known.
+2022-05-15 15:44:29,540 [Worker-116: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Sources are not up-to-date, XJC will be executed.
+2022-05-15 15:44:29,593 [Worker-116: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Episode file [C:\Users\simon\eclipse-workspace\M1NouvellesTechnoRepartition\ConsumingWebServices\target\generated-sources\xjc\META-INF\sun-jaxb.episode] was augmented with if-exists="true" attributes.
+2022-05-15 15:44:29,594 [Worker-116: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-05-15 15:44:29,594 [Worker-116: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2022-05-15 15:44:29,595 [Worker-116: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2022-05-15 15:44:29,602 [Worker-116: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2022-05-15 15:44:29,603 [Worker-116: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2022-05-15 15:44:29,606 [Worker-116: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-05-15 15:44:29,606 [Worker-116: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2022-05-15 15:44:29,606 [Worker-116: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\simon\eclipse-workspace\M1NouvellesTechnoRepartition\ConsumingWebServices\src\test\resources
+2022-05-15 15:49:29,834 [Worker-117: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - The URI [http://localhost:8080/ws/Payment.wsdl] seems to represent an absolute HTTP or HTTPS URL. Getting the last modification timestamp is only possible if the URL is accessible and if the server returns the [Last-Modified] header correctly. This method is not reliable and is likely to fail. In this case the last modification timestamp will be assumed to be unknown.
+2022-05-15 15:49:29,844 [Worker-117: Building] ERROR o.e.m.c.i.embedder.EclipseLogger - Could not retrieve the last modification timestamp for the URI [http://localhost:8080/ws/Payment.wsdl] from the HTTP URL connection. The [Last-Modified] header was probably not set correctly.
+2022-05-15 15:49:29,844 [Worker-117: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Last modification of the URI [http://localhost:8080/ws/Payment.wsdl] is not known.
+2022-05-15 15:49:29,846 [Worker-117: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Sources are not up-to-date, XJC will be executed.
+2022-05-15 15:49:29,886 [Worker-117: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Episode file [C:\Users\simon\eclipse-workspace\M1NouvellesTechnoRepartition\ConsumingWebServices\target\generated-sources\xjc\META-INF\sun-jaxb.episode] was augmented with if-exists="true" attributes.
+2022-05-15 15:49:29,888 [Worker-117: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-05-15 15:49:29,888 [Worker-117: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2022-05-15 15:49:29,889 [Worker-117: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2022-05-15 15:49:29,896 [Worker-117: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2022-05-15 15:49:29,896 [Worker-117: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2022-05-15 15:49:29,900 [Worker-117: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-05-15 15:49:29,901 [Worker-117: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2022-05-15 15:49:29,901 [Worker-117: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\simon\eclipse-workspace\M1NouvellesTechnoRepartition\ConsumingWebServices\src\test\resources
