@@ -38,7 +38,6 @@ INDEX VERSION 1.131+C:\Users\simon\eclipse-workspace\M1NouvellesTechnoRepartitio
 3255908364.index
 2877818711.index
 4159254862.index
-4174483436.index
 4088693202.index
 684916197.index
 1680489004.index
@@ -64,7 +63,6 @@ INDEX VERSION 1.131+C:\Users\simon\eclipse-workspace\M1NouvellesTechnoRepartitio
 2984210136.index
 2719864669.index
 1102663172.index
-3342195265.index
 2493296196.index
 4095883498.index
 3691964157.index
@@ -76,7 +74,6 @@ INDEX VERSION 1.131+C:\Users\simon\eclipse-workspace\M1NouvellesTechnoRepartitio
 2245687074.index
 2461754296.index
 682389354.index
-3926412921.index
 3066260965.index
 120117208.index
 3233990172.index
