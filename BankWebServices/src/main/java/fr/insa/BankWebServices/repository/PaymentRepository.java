@@ -19,6 +19,7 @@ public class PaymentRepository {
 	public void initData() {
 		Payment op1 = new Payment();
 		op1.setIdOperation(1);
+		op1.setIdClient(1);
 		op1.setPrix(200);
 		op1.setType(Type.DEBIT);
 
@@ -26,6 +27,7 @@ public class PaymentRepository {
 
 		Payment op2 = new Payment();
 		op2.setIdOperation(2);
+		op2.setIdClient(1);
 		op2.setPrix(500);
 		op2.setType(Type.REMBOURSEMENT);
 
@@ -33,6 +35,7 @@ public class PaymentRepository {
 
 		Payment op3 = new Payment();
 		op3.setIdOperation(3);
+		op3.setIdClient(2);
 		op3.setPrix(400);
 		op3.setType(Type.DEBIT);
 

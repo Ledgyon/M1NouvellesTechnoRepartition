@@ -1,5 +1,7 @@
 package fr.insa.BankWebServices.models;
 
+import java.util.ArrayList;
+import java.util.List;
 import java.util.Objects;
 
 import javax.persistence.Entity;
@@ -13,6 +15,7 @@ public class Client {
 	private String name;	
 	private int age;	
 	private double solde;
+	private ArrayList<String> operation;
 	
 	public Client() {}
 	
@@ -20,6 +23,7 @@ public class Client {
 		this.name = name;
 		this.age = age;
 		this.solde = solde;
+		this.operation = new ArrayList<String>();
 	}
 	
 	public Long getId() {
@@ -47,9 +51,17 @@ public class Client {
 		this.solde = solde;
 	}
 
+	public ArrayList<String> getOperation() {
+		return operation;
+	}
+
+	public void setOperation(ArrayList<String> operation) {
+		this.operation = operation;
+	}
+
 	@Override
 	public int hashCode() {
-		return Objects.hash(age, id, name, solde);
+		return Objects.hash(age, id, name, operation, solde);
 	}
 
 	@Override
@@ -62,13 +74,17 @@ public class Client {
 			return false;
 		Client other = (Client) obj;
 		return age == other.age && Objects.equals(id, other.id) && Objects.equals(name, other.name)
+				&& Objects.equals(operation, other.operation)
 				&& Double.doubleToLongBits(solde) == Double.doubleToLongBits(other.solde);
 	}
 
 	@Override
 	public String toString() {
-		return "Client [id=" + id + ", name=" + name + ", age=" + age + ", solde=" + solde + "]";
+		return "Client [id=" + id + ", name=" + name + ", age=" + age + ", solde=" + solde + ", operation=" + operation
+				+ "]";
 	}
+
+	
 	
 	
 }

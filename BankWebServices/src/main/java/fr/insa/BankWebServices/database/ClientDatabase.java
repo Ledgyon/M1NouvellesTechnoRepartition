@@ -15,13 +15,13 @@ class ClientDatabase {
   private static final Logger log = LoggerFactory.getLogger(ClientDatabase.class);
 
   @Bean
-  CommandLineRunner initDatabase(ClientRepository employeeRepository) {
+  CommandLineRunner initDatabase(ClientRepository clientRepository) {
 
     return args -> {
-      employeeRepository.save(new Client("Simon Rudent", 21, 1000));
-      employeeRepository.save(new Client("Norman Di Bello", 21, 999));
+      clientRepository.save(new Client("Simon Rudent", 21, 1000));
+      clientRepository.save(new Client("Norman Di Bello", 21, 999));
 
-      employeeRepository.findAll().forEach(client -> log.info("Preloaded " + client));
+      clientRepository.findAll().forEach(client -> log.info("Preloaded " + client));
       
     };
   }
